@@ -1,0 +1,216 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.img2{
+    width: 22rem;
+    margin-left: -9rem;
+    margin-top: -5rem;
+    position: fixed;
+}
+
+ .first{
+    display: flex;
+ }
+.left{
+    width: 30%;
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+    flex-direction: column;
+}
+.logo-carier{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 18px 0.5px #019B67; 
+    border-radius: 30px;
+    width: 37%;
+    height: 8.5rem;
+    margin-right: 4rem;
+    margin-top: rem;
+
+}
+.logo-carier img{
+    margin-top: 16px;
+}
+.left h1{
+    margin-right: 4rem;
+    margin-top: 32px;
+    font-size: 2rem;
+}
+.left p{
+    margin-right: 4rem;
+}
+.right{
+    width: 70%;
+    
+   
+    background-color: #019B67;
+    border-radius: 0px 0px 0px 53px;
+}
+
+.login-btn-org{
+    padding: 10px 16px;
+    border: none;
+    border-radius: 17px;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: rgba(255, 255, 255, 0.336) ;
+    margin-left: 12px;
+    position: sticky;
+    color: rgb(255, 255, 255);
+}
+.together {
+    display: flex; /* Aligns content and image side by side */
+    flex-wrap: wrap; /* Allows content to wrap on smaller screens */
+    align-items: center; /* Vertically center the content */
+    justify-content: space-between; /* Push content and image apart */
+    padding: 20px; /* Add padding for better spacing */
+  }
+.index-content{
+    flex: 1; /* Take up remaining space */
+  min-width: 300px; /* Ensure content doesn't shrink too small */
+  padding: 10px;
+   
+    color: rgb(255, 255, 255);
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin: 1rem; 
+}
+/* Responsive image */
+.student {
+    max-width: 100%; /* Image will scale down to fit its container */
+    height: auto; /* Maintain aspect ratio */
+    flex: 1; /* Allow the image to take up available space */
+    min-width: 200px; /* Set a minimum width */
+    object-fit: contain; /* Ensure the image fits within bounds */
+  }
+.content{
+    letter-spacing: none;
+}
+.index-content h1{
+    font-size: 8rm;
+   
+}
+.about-more{
+    font-size: 20px;
+    padding: 12px 12px;
+    background-color: #ffffff;
+    border-radius: 9px;
+    color: #019B67;
+    font-weight: 900;
+    border: none;
+    margin-top: 12px;
+}
+
+/* about  */
+
+.about-us{
+    height: 40rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.about-us h1{
+    font-size: 3rem;
+    padding-top: 53px;
+    text-align: center;
+   
+    
+}
+.text{
+    background-color: #019B67;
+    width: 70%;
+    border-radius: 0px 53px 0px 0px ;
+    height: 40rem;
+    color: rgb(255, 255, 255);
+    margin-top: 3px;
+}
+.text img{
+   position: relative;
+    
+}
+.left2{
+    width: 30%;
+    
+    height: 40rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo-carier2{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 18px 0.5px #019B67; 
+    border-radius: 30px;
+    width: 35%;
+    height: 8.5rem;
+    margin-top: rem;
+    /* margin-left: ; */
+
+}
+.logo-carier2 img{
+    margin-top: 16px;
+}
+.left2 h1{
+   
+    margin-top: -25px;
+    font-size: 2rem;
+}
+.p-about{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10%;
+    margin-top: 5rem;
+    font-size: 1.1rem;
+}
+
+
+
+.nav-header{
+    display: flex;
+    margin-top: 2rem;
+    
+}
+.nav-header img{
+    width: 5rem;
+    height: 5rem;
+    margin-left: 2rem;
+
+}
+.nav-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+/* Media Query for Small Screens */
+@media (max-width: 768px) {
+    .together {
+      flex-direction: column; /* Stack content and image vertically */
+      align-items: center; /* Center align items */
+      text-align: center; /* Center align text */
+    }
+  
+    .index-content {
+      padding: 10px; /* Adjust padding for smaller screens */
+    }
+  
+    .student {
+      max-width: 80%; /* Adjust the image size for smaller screens */
+      margin-top: 10px; /* Add spacing above the image */
+    }
+  }

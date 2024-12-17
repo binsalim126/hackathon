@@ -1,0 +1,89 @@
+/* General Footer Styling */
+.footer {
+    background-color: #000000d1;
+    color: white;
+    padding: 50px 5%;
+    font-family: Arial, sans-serif;
+ 
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px; /* Ensures the section doesn't shrink too small */
+}
+
+.footer-section h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    color: #f0f0f0;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-logo {
+    width: 150px;
+    margin-bottom: 15px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.social-icons li a:hover {
+    color: #ff9800;
+}
+
+.pic-whatsapp {
+    opacity: initial;
+    background: transparent;
+    width: 45px;
+    height: 36px;
+}
+
+.facebook {
+    opacity: initial;
+    background: transparent;
+    width: 40px;
+}
+
+.call {
+    width: 30px;
+}
+
+/* Rights Reserved */
+.footer-rights {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #bbb;
+}
+
+.footer-rights p {
+    margin: 0;
+}

@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding:0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+
+}
+.logowith-text{
+    
+    text-align: center;
+   margin-left: 8px;
+   margin-top: -12px;
+ 
+ }
+ .logowith-text h4{
+    margin-top: -20px;
+ }
+ .main{
+     display: flex;
+     /* margin: 12px; */
+     justify-content: space-a;
+    
+     /* margin-left: 10px; */
+     width: 100%;
+ }
+
+ .icon{
+     
+     width: 64px;
+   
+     height: auto;
+     margin-left: 60rem;
+     margin-top: 12px;
+ }
+ .icon img{
+    width: 62px;
+ }
+ .nav-bar{
+     width: 60%;
+     font-weight: 600;
+     display: flex;
+     justify-content: space-around;
+     margin: auto;
+     margin-top: 12px;
+    
+ }
+ .nav-bar animation start-home{
+     background-color: #019B67;
+     width: 23px;
+     color: black;
+     text-decoration: none;
+     height: 20rem;
+ }
+ .nav-bar a{
+    color: black;
+    text-decoration: none;
+ }
+ .nav-bar a:hover {
+    background-color: #019B67;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 1s;
+}
+ .board{
+     width: 100%;
+     height: 50rem;
+     background-color: #019B67;
+     
+     border-radius: 45px 45px 0px 0px;
+ }
+ /* .board img{
+     float: right;
+     margin-top: -223px;
+    
+     
+ } */
+ .event-board{
+  
+    width: 90%;
+    height: 25rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* margin-top: -73%; */
+    align-items: center;
+    padding-top: 4rem;
+    margin-left: 5%;
+ }
+ .container{
+    background-color: rgba(255, 255, 255, 0.473);
+    height: 5rem;
+    border-radius: 35px;
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    align-items: center;
+    
+ }
+ .container a{
+ text-decoration: none;
+ }
+ @media (max-width: 768px) {
+    .logowith-text h1 {
+       font-size: 2.rem;
+       width: 11rem;
+       color: #019B67;
+ 
+       
+   }
+   .icon{
+    margin-left: -23px;
+    margin-top: 32px;
+
+   }
+   .event-board{
+    margin-top: 3rem;
+    padding-top: 62px;
+   }
+   .logowith-text h4{
+      font-size: 1.3rem;
+      width: 14rem;
+      color: #202124bb;
+      margin-left: -3px;
+   }
+   .main{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 100%;
+   }
+    .log{
+       display: none;
+    }
+ 
+    .logowith-text  {
+        margin: 10px 0;
+    }
+ 
+    .nav-bar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+}
