@@ -72,6 +72,11 @@ export default function Menu() {
                   <FaUserFriends className="icons" /> Help
                 </Link>
               </li>
+              <li>
+                <Link href="/help">
+                  <FaUserFriends className="icons" /> Chat 
+                </Link>
+              </li>
               
               
             </ul>
